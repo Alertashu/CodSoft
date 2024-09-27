@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -14,7 +14,6 @@ body {
     margin: 0 auto;
 }
 
-/* Header Styles */
 header {
     background-color: #004080;
     color: white;
@@ -48,7 +47,6 @@ nav ul li a:hover {
     color: #ffcc00;
 }
 
-/* Hero Section */
 .hero {
     background-image: url('abc.png');
     background-size: cover;
@@ -82,7 +80,6 @@ nav ul li a:hover {
     background-color: #e6b800;
 }
 
-/* Features Section */
 .features {
     background-color: #f0f0f0;
     padding: 60px 0;
@@ -118,7 +115,6 @@ nav ul li a:hover {
     color: #004080;
 }
 
-/* Footer Styles */
 footer {
     background-color: #004080;
     color: white;
