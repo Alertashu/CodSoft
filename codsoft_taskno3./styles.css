@@ -1,11 +1,10 @@
-/* Global Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
     display: flex;
     justify-content: center;
@@ -15,7 +14,6 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-/* Calculator Container */
 .calculator {
     background-color: #333;
     width: 300px;
@@ -23,7 +21,6 @@ body {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* Display Styling */
 .calculator-display {
     background-color: #000;
     color: #00ff00; /* Classic calculator green */
@@ -39,14 +36,12 @@ body {
     word-wrap: break-word;
 }
 
-/* Buttons Container */
 .calculator-buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1px; /* To create space between buttons */
 }
 
-/* Button Styling */
 .btn {
     background-color: #222;
     color: #fff;
@@ -58,12 +53,10 @@ body {
     transition: background-color 0.2s, color 0.2s;
 }
 
-/* Button Hover Effects */
 .btn:hover {
     background-color: #444;
 }
 
-/* Operator Buttons */
 .operator {
     background-color: #ff5722; /* Classic orange for operators */
     color: #fff;
@@ -73,7 +66,6 @@ body {
     background-color: #e64a19;
 }
 
-/* Equal Button */
 .equal {
     background-color: #4caf50; /* Classic green for equals */
     color: #fff;
@@ -84,7 +76,6 @@ body {
     background-color: #388e3c;
 }
 
-/* Special Buttons */
 .btn.special {
     background-color: #555;
     color: #fff;
