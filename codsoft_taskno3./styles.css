@@ -1,0 +1,95 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Calculator Container */
+.calculator {
+    background-color: #333;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Display Styling */
+.calculator-display {
+    background-color: #000;
+    color: #00ff00; /* Classic calculator green */
+    text-align: right;
+    padding: 20px;
+    font-size: 2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid #555;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+/* Buttons Container */
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px; /* To create space between buttons */
+}
+
+/* Button Styling */
+.btn {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+/* Button Hover Effects */
+.btn:hover {
+    background-color: #444;
+}
+
+/* Operator Buttons */
+.operator {
+    background-color: #ff5722; /* Classic orange for operators */
+    color: #fff;
+}
+
+.operator:hover {
+    background-color: #e64a19;
+}
+
+/* Equal Button */
+.equal {
+    background-color: #4caf50; /* Classic green for equals */
+    color: #fff;
+    grid-column: span 2; /* Span across two columns */
+}
+
+.equal:hover {
+    background-color: #388e3c;
+}
+
+/* Special Buttons */
+.btn.special {
+    background-color: #555;
+    color: #fff;
+}
+
+.btn.special:hover {
+    background-color: #666;
+}
