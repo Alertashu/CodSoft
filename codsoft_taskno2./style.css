@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,6 @@ body {
     margin: 0 auto;
 }
 
-/* Header Styles */
 header {
     background-color: #3f1b91;
     color: white;
@@ -51,7 +50,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* About Section */
 .about-section {
     background-color: white;
     padding: 60px 0;
@@ -79,7 +77,6 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
-/* Skills Section */
 .skills-section {
     background-color: #f4f4f4;
     padding: 50px 0;
@@ -102,7 +99,6 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-/* Projects Section */
 .projects-section {
     background-color: white;
     padding: 50px 0;
@@ -129,7 +125,6 @@ nav ul li a:hover {
     color: #333;
 }
 
-/* Resume Section */
 .resume-section {
     background-color: #f4f4f4;
     padding: 50px 0;
@@ -150,7 +145,6 @@ nav ul li a:hover {
     background-color: #218838;
 }
 
-/* Contact Section */
 .contact-section {
     background-color: white;
     padding: 50px 0;
@@ -166,7 +160,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Footer */
 footer {
     background-color: #344884;
     color: white;
@@ -178,7 +171,6 @@ footer p {
     margin: 0;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .about-content {
         flex-direction: column;
